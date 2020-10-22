@@ -10,6 +10,7 @@ def exercise1():
     ledger.transfer('Account 2', 'Account 1', 700)
     ledger.transfer('Account 2', 'Account 3', 100)
     ledger.print_accounts()
+    ledger.print_transactions()
 
 
 exercise1()
